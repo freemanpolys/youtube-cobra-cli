@@ -6,7 +6,7 @@ go get -u github.com/spf13/cobra
 mkdir mycli
 cd mycli
 cobra init --pkg-name mycli
-go mod int mycli
+go mod init mycli
 go mod tidy 
 ```
 
